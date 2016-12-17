@@ -1,0 +1,19 @@
+AppBundle\Entity\User\User:
+  user1:
+    username: 'François'
+    email: 'françois.fony@gmail.com'
+    enabled: true
+    password: 'fryo15'
+    last_login: '<dateTimeBetween("-200 days", "now")>'
+    level: 15
+    xp: 2000
+    team: 'bleue'
+  user2:
+    username: 'Françoise'
+    email: 'françoise.fony@gmail.com'
+    enabled: true
+    password: 'fryos15'
+    last_login: '<dateTimeBetween("-180 days", "now")>'
+    level: 15
+    xp: 2000
+    team: 'rouge'
